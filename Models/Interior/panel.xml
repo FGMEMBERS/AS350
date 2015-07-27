@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+ <!--Screens -->
+  
+
+  <!-- ai  -->
+  <model>
+		<name>AI</name>
+		<path>Aircraft/Instruments-3d/ai/ai.xml</path>
+		<offsets>
+			 <x-m> -4.764</x-m>
+       <y-m>  0.263 </y-m>
+      <z-m>  -0.165 </z-m>
+	    <pitch-deg>   -12 </pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.0</x-offset>
+    <y-offset>0.95</y-offset>
+    <z-offset>0.95</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	 <model>
+		<name>AI2</name>
+		<path>Aircraft/Instruments-3d/ai/ai.xml</path>
+		<offsets>
+			 <x-m> -4.762</x-m>
+       <y-m>  -0.284 </y-m>
+      <z-m>  -0.177 </z-m>
+	    <pitch-deg>   -12 </pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.0</x-offset>
+    <y-offset>0.95</y-offset>
+    <z-offset>0.95</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+  <!-- alt   -->
+  
+  
+  <model>
+		<name>ALT</name>
+		<path>Aircraft/Instruments-3d/alt/alt.xml</path>
+		<offsets>
+			 <x-m> -4.769</x-m>
+       <y-m>  0.354</y-m>
+      <z-m>  -0.165 </z-m>
+	    <pitch-deg>   -12 </pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.0</x-offset>
+    <y-offset>0.95</y-offset>
+    <z-offset>0.95</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	<!-- vsi -->
+	<model>
+		<name>VSI</name>
+		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+		<offsets>
+			 <x-m> -4.75</x-m>
+       <y-m>  0.354</y-m>
+      <z-m>  -0.245 </z-m>
+	    <pitch-deg>   -14 </pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.0</x-offset>
+    <y-offset>0.95</y-offset>
+    <z-offset>0.95</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<!-- Landing light switch -->
+	<model>
+		
+		<path>Aircraft/AS350/Models/Interior/Instruments/switches/landing-lights.xml</path>
+		<offsets>
+			 <x-m> -4.73</x-m>
+       <y-m>  0.37</y-m>
+      <z-m>  -0.32 </z-m>
+	    <pitch-deg>   -14 </pitch-deg>
+		</offsets>
+		
+	</model>
+
+  
+ 
+  <!-- asi   -->
+  
+  
+  <model>
+		<name>ASI</name>
+		<path>Aircraft/AS350/Models/Interior/Instruments/asi/asi.xml</path>
+		<offsets>
+			  <x-m> -4.768</x-m>
+     <y-m>  0.166 </y-m>
+      <z-m>  -0.167 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<!-- VEMD-->
+	 <model>
+		<name>vemd</name>
+		<path>Aircraft/AS350/Models/Interior/Instruments/VEMD/vemd.xml</path>
+		<offsets>
+			  <x-m> -4.768</x-m>
+     <y-m>  0.023 </y-m>
+      <z-m>  -0.213 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+	
+	</model>
+	
+	
+	<!-- warning -->
+	 <model>
+		
+		<path>Aircraft/AS350/Models/Interior/Instruments/CWS/CWS.xml</path>
+		<offsets>
+			  <x-m> -4.79</x-m>
+     <y-m>  0.023 </y-m>
+      <z-m>  -0.085 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+	
+	</model>
+  
+  
+  <!-- VOR -->
+  <model>
+		
+		<path>Aircraft/Instruments-3d/vor/vor.xml</path>
+		<offsets>
+			  <x-m> -4.746</x-m>
+     <y-m>  0.166 </y-m>
+      <z-m>  -0.244 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+  
+  
+
+ 
+ 
+  
+  <!-- chronograph     -->
+   <model>
+    <path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
+    <offsets>
+			 <x-m> -4.79</x-m>
+       <y-m>  -0.095 </y-m>
+      <z-m>  -0.075 </z-m>
+	    <pitch-deg>   -12 </pitch-deg>
+		</offsets>
+  </model>
+
+ 
+  
+  <!-- torque guage   -->
+  
+  <model>
+		<name>TORQUE</name>
+		<path>Aircraft/AS350/Models/Interior/Instruments/torque/torque.xml</path>
+		<offsets>
+			  <x-m> -4.785</x-m>
+     <y-m>  0.166 </y-m>
+      <z-m>  -0.088 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.35</y-offset>
+    <z-offset>1.35</z-offset>
+   </animation>
+	</model>
+  
+ <!-- ADF --> 
+ <model>
+		<name>ADF</name>
+		<path>Aircraft/Instruments-3d/adf/adf.xml</path>
+		<offsets>
+		 <x-m> -4.75</x-m>
+     <y-m>  0.262 </y-m>
+      <z-m>  -0.25</z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.9</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<!-- HI -->
+	
+	<model>
+		<name>HI</name>
+		<path>Aircraft/Instruments-3d/hi/hi.xml</path>
+		<offsets>
+			<x-m>-4.785</x-m>
+			<y-m>0.262</y-m>
+			<z-m>-0.088</z-m>
+			<roll-deg>      0 </roll-deg>
+      <pitch-deg>   -12.4 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.9</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	
+	 <model>
+		<name>SCU</name>
+		<path>Aircraft/AS350/Models/Interior/Instruments/SCU/SCU.xml</path>
+		<offsets>
+			  <x-m> -4.544</x-m>
+     <y-m>  -0.013 </y-m>
+      <z-m>  -0.522 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>   31 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+		</offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.01</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+  
+
+
+
+</PropertyList>
+
